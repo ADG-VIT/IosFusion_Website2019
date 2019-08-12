@@ -4,3 +4,19 @@ Background - #131415
 Light Grey - #C9C9C9
 Gray - #B1B1B1
 Dark Grey - #696969 */
+.navbar {
+    background: black !important;
+  }
+  
+  .nav-item {
+    float: right !important;
+    right: 5px !important;
+    margin: auto 20px;  
+  }
+  
+  .navbar-nav {
+    float: right;
+    right: 5px;
+    position: fixed !important;
+    margin: 10px 40px !important;
+  }
