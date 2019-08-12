@@ -4,6 +4,36 @@ Background - #131415
 Light Grey - #C9C9C9
 Gray - #B1B1B1
 Dark Grey - #696969 */
+.bg{
+    background: #131415;
+}
+#des{
+    position: absolute;
+    height: 80vh;
+    width: 77%;
+    display: block;
+    margin: 10vh 10vw;
+    background: linear-gradient(90deg,#2E76FF 50%,rgb(6, 15, 153) 50%);
+    padding: 10px;
+    border: 1px solid #08038C;
+    border-radius: 10px 0 0 10px;
+    overflow: auto;
+}
+
+
+::-webkit-scrollbar {
+    display: none;
+    }
+#des1{
+    display: block;
+    width: 80%;
+    margin: 10vh 50px;
+    margin-top: 10vh;
+    height: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius:10px;
+}
 
 .navbar {
     background: black !important;
