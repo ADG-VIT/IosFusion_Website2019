@@ -25,3 +25,12 @@ Dark Grey - #696969 */
 #img {
     width: 70px !important;
 }
+
+.nav-link {
+    color: azure !important;
+}
+
+.nav-link:hover {
+
+    border-bottom: 2px solid  #2E76FF;
+}
