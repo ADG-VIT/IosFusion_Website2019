@@ -4,31 +4,6 @@ Background - #131415
 Light Grey - #C9C9C9
 Gray - #B1B1B1
 Dark Grey - #696969 */
-<<<<<<< Updated upstream
-<<<<<<< HEAD
-=======
-
-.navbar {
-    background: black !important;
-  }
-  
-.nav-item {
-    float: right !important;
-    right: 5px !important;
-    margin: auto 20px;  
-  }
-  
-.navbar-nav {
-    float: right;
-    right: 5px;
-    position: fixed !important;
-    margin: 10px 40px !important;
-  }
-
-#img {
-    width: 70px !important;
-}
->>>>>>> Stashed changes
 .bg{
     background: #131415;
 }
@@ -58,8 +33,7 @@ Dark Grey - #696969 */
     background: #fff;
     padding: 20px;
     border-radius:10px;
-<<<<<<< Updated upstream
-=======
+}
 
 .navbar {
     background: black !important;
@@ -80,7 +54,4 @@ Dark Grey - #696969 */
 
 #img {
     width: 70px !important;
->>>>>>> 9f7df030ccb722e1909b245bce8dcd66597d958b
-=======
->>>>>>> Stashed changes
 }
