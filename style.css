@@ -34,9 +34,9 @@ Dark Grey - #696969 */
     padding: 20px;
     border-radius:10px;
 }
-
+/* nav br*/
 .navbar {
-    background: black !important;
+    background: #131415 !important;
   }
   
 .nav-item {
@@ -52,10 +52,6 @@ Dark Grey - #696969 */
     margin: 10px 40px !important;
   }
 
-#img {
-    width: 70px !important;
-}
-
 .nav-link {
     color: azure !important;
 }
@@ -64,3 +60,13 @@ Dark Grey - #696969 */
 
     border-bottom: 2px solid  #2E76FF;
 }
+#img {
+    width: 70px !important;
+}
+
+#button{
+    background-color:#2E76FF;
+    display: inline-block;
+    border-radius: 20px !important;
+    }
+/*nav bar*/
