@@ -9,8 +9,8 @@ Dark Grey - #696969 */
 }
 #des{
     position: relative;
-    height: 90vh;
-    width: 100vw;
+    height: auto;
+    width: auto;
     margin-top: 13vh;
     margin-left: 12vw;
     display: inline-block;
