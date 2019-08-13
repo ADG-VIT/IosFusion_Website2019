@@ -8,16 +8,17 @@ Dark Grey - #696969 */
     background: #131415;
 }
 #des{
-    position: absolute;
-    height: 80vh;
-    width: 77%;
-    display: block;
-    margin: 10vh 10vw;
+    position: relative;
+    height: 90vh;
+    width: 100vw;
+    margin-top: 13vh;
+    margin-left: 12vw;
+    display: inline-block;
     background: linear-gradient(90deg,#2E76FF 50%,rgb(6, 15, 153) 50%);
     padding: 10px;
     border: 1px solid #08038C;
-    border-radius: 10px 0 0 10px;
-    overflow: auto;
+    border-radius: 10px;
+    
 }
 
 
@@ -26,13 +27,14 @@ Dark Grey - #696969 */
     }
 #des1{
     display: block;
-    width: 80%;
-    margin: 10vh 50px;
-    margin-top: 10vh;
-    height: auto;
+    width: 90%;
+    margin: 10vh 50px 10vh 50px;
+    
+    height: 100%;
     background: #fff;
     padding: 20px;
     border-radius:10px;
+    
 }
 /* nav br*/
 .navbar {
