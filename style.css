@@ -66,17 +66,20 @@ Dark Grey - #696969 */
    
 }
 #img {
-    width: 50px !important;
-    size:40px;
+    width: 70px !important;
+    size: 100px !important;
     position:relative;
+    height: 70px ;
      
 }
 
-#button{
-    background-color:#2E76FF;
-    display: inline-block;
+.reg{
+    background-color:#2E76FF !important;
+    display: inline-block !important;
     border-radius: 20px !important;
+    border-color: #2E76FF !important;
     }
+
 /*nav bar*/
 /* event description*/
 #h5{
@@ -89,8 +92,40 @@ Dark Grey - #696969 */
 #h1{
     color: #2E76FF !important;
     padding-left: 35%;
+    /*padding-bottom: 1.5% !important;*/
+}
+#laptop{
+    height: 210px;
+}
+.laptop1 {
+    float: left;
+    padding: 50px;
+    padding-left: 80px;
+    padding-right: 100px;
+    padding-top: 100px;
+}
+.laptop1 img {
+    display: block;
+}
+.laptop2 {
+    margin-left: 210px;
+    padding: 50px;
+    color: white;
+    text-align: justify;
+    font-size: 18px !important;
+}
+
+/* #laptop{
+    height: 200px !important;
+}
+#laptop2{
+    padding: 50px;
+} */
+.text{
+color:  azure;
 }
 /* event description*/
+
 
 
 /* author bhavesh intro and countdown Start */
