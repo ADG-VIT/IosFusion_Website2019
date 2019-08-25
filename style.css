@@ -47,6 +47,7 @@ Dark Grey - #696969 */
     float: right !important;
     right: 5px !important;
     margin: auto 20px;  
+    font-family: "Montserrat-Black", sans-serif;
   }
   
 .navbar-nav {
@@ -87,11 +88,13 @@ Dark Grey - #696969 */
     padding-top: 8%;
     padding-bottom: 0%;
     padding-left: 42%;
+    font-family: "Montserrat-Black", sans-serif;
 
 }
 #h1{
     color: #2E76FF !important;
     padding-left: 35%;
+    font-family: "Montserrat-Black", sans-serif;
     /*padding-bottom: 1.5% !important;*/
 }
 #laptop{
@@ -113,6 +116,7 @@ Dark Grey - #696969 */
     color: white;
     text-align: justify;
     font-size: 18px !important;
+    font-family: "Montserrat-Black", sans-serif;
 }
 
 /* #laptop{
