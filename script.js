@@ -1,3 +1,26 @@
+
+// /**
+//  * animation finction
+//  */
+// var tl = new TimelineMax({onUpdate:updatePercentage});
+// var tl2 = new TimelineMax();
+// const controller = new ScrollMagic.Controller();
+
+// // tl.from('#des', 0.1, {x:-200, opacity: 0});
+// tl.from('#des1', 0.1, {x:200, opacity: 0});
+// tl.from('.container-fluid1', 0.1, {x:-200, opacity: 0});
+// const scene = new ScrollMagic.Scene({
+//   triggerElement: "#desc",
+//             triggerHook: "onLeave",
+//             duration: "100%"
+// })
+//   .setPin("#des")
+//   .setTween(tl)
+// 		.addTo(controller);
+// function updatePercentage() {
+//       tl.progress();
+//       console.log(tl.progress());
+//     }
 /*author bhavesh Function COuntdown Start */
 function countDown()
 {
@@ -37,3 +60,31 @@ function countDown()
 }
 countDown();
 /*author bhavesh Function COuntdown End */
+
+/*author bhavesh Timeline start */
+/* Check the location of each element */
+$('.content').each( function(i){
+  
+    var bottom_of_object= $(this).offset().top + $(this).outerHeight();
+    var bottom_of_window = $(window).height();
+    
+    if( bottom_of_object > bottom_of_window){
+      $(this).addClass('hidden');
+    }
+  });
+  
+  
+  $(window).scroll( function(){
+      /* Check the location of each element hidden */
+      $('.hidden').each( function(i){
+        
+          var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+          var bottom_of_window = $(window).scrollTop() + $(window).height();
+        
+          /* If the object is completely visible in the window, fadeIn it */
+          if( bottom_of_window > bottom_of_object ){
+            $(this).animate({'opacity':'1'},700);
+          }
+      });
+  });
+  /*author bhavesh Timeline end */
