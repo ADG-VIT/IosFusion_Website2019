@@ -37,7 +37,9 @@ Dark Grey - #696969 */
 /* nav br*/
 .navbar {
     background: #131415 !important;
+    size:800px;
   }
+
   
 .nav-item {
     float: right !important;
@@ -58,10 +60,14 @@ Dark Grey - #696969 */
 
 .nav-link:hover {
 
-    border-bottom: 2px solid  #2E76FF;
+   border-bottom: 2px solid  #2E76FF;
+   
 }
 #img {
-    width: 70px !important;
+    width: 50px !important;
+    size:40px;
+    position:relative;
+     
 }
 
 #button{
@@ -70,6 +76,20 @@ Dark Grey - #696969 */
     border-radius: 20px !important;
     }
 /*nav bar*/
+/* event description*/
+#h5{
+    color: #2E76FF ;
+    padding-top: 8%;
+    padding-bottom: 0%;
+    padding-left: 42%;
+
+}
+#h1{
+    color: #2E76FF !important;
+    padding-left: 35%;
+}
+/* event description*/
+
 
 /* author bhavesh intro and countdown Start */
 
