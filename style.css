@@ -45,16 +45,19 @@ Dark Grey - #696969 */
   
 .nav-item {
     float: right !important;
-    right: 5px !important;
+    right: 2px !important;
     margin: auto 20px;  
     font-family: "Montserrat-Black", sans-serif;
+    width: 100px;
+    text-align:center;
+    
   }
   
 .navbar-nav {
     float: right;
     right: 5px;
     position: fixed !important;
-    margin: 10px 40px !important;
+    margin: 10px 50px !important;
   }
 
 .nav-link {
@@ -67,18 +70,24 @@ Dark Grey - #696969 */
    
 }
 #img {
-    width: 70px !important;
+    width: 80px !important;
     size: 100px !important;
     position:relative;
-    height: 70px ;
+    height: 80px ;
      
 }
 
 .reg{
-    background-color:#2E76FF !important;
-    display: inline-block !important;
-    border-radius: 20px !important;
-    border-color: #2E76FF !important;
+    background-color:#2E76FF !important; 
+    /* display: inline-block !important; */
+    border-radius: 6px !important;
+    /* border-color: #2E76FF !important; */
+    width:120px !important; 
+    /* height: 25px;  */
+    text-align: center !important;
+    padding:15px;
+    
+   
     }
 
 /*nav bar*/
