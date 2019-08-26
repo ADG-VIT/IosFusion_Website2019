@@ -29,7 +29,6 @@ Dark Grey - #696969 */
     display: block;
     width: 90%;
     margin: 10vh 50px 10vh 50px;
-    
     height: 100%;
     background: #fff;
     padding: 20px;
@@ -327,3 +326,67 @@ table tr td:last-child{
 }
 
 /* author bhavesh timline end */
+.det-text{
+  padding-top: 150px;
+  text-align: center;
+  color: #08038C; 
+   
+}
+.det-text2{
+  color: #2E76FF;
+  padding-top: 5px;
+  font-size: 4em;
+  padding-bottom: 20px; 
+}
+.det{
+  position: relative;
+  display: flex;
+}
+.det1{
+  position: relative;
+  display: block;
+  padding: 15%;
+  border-radius: 10px;
+  background-color: #2E76FF;
+ 
+}
+.det1 > img{
+  padding-top: 5px; 
+  width: 80%;
+  margin: auto;
+  display: block;
+  padding-top: 20px;
+}
+.det1:nth-child(1){
+  margin-left: 6%;
+  padding: 8px 13px;
+}
+.det1:nth-child(2){
+  margin-left: 24%;
+  padding: 5px 13px; 
+}
+.det1:nth-child(3){
+  margin-left: 24%;
+  margin-right: 6%;
+  padding: 8px 13px;
+}
+.det-txt1{
+  text-align: center;
+  color: aliceblue;
+  font-size: 1.5vw;
+  font-weight: 700;
+  padding-top: 15px; 
+}
+.det-txt2{
+  text-align: center;
+  color: aliceblue;
+  font-size: 1.1vw;
+  padding-top: 0px;
+  letter-spacing: 0.08vw;
+}
+@media screen and (max-width: 980px) {
+  .det1{
+    background-color: #2E76FF;
+    width:20%;
+  }
+}
