@@ -139,7 +139,7 @@ color:  azure;
 /* event description*/
 
 
-
+/* author bhavesh intro and countdown Start */
 
 .wordsh1{
     font-family: sans-serif;
@@ -280,10 +280,10 @@ table tr td:last-child{
   font-size: 1.5em
 }
 .h4s{
-  margin-bottom: 0px; color:  #696969;margin-top: 2.4%;margin-left: 40%;font-size:3em 
+  margin-bottom: 0px; color:  #696969;margin-top: 2.4%;text-align: center;font-size:3em 
 }
 .h1s{
-  margin-top: 0px;color:  #2E76FF ;font-size: 6em;font-weight: 650; margin-left: 30%
+  margin-top: 0px;color:  #2E76FF ;font-size: 6em;font-weight: 650; text-align: center
 }
 }
 
