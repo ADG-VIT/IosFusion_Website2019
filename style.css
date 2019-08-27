@@ -140,7 +140,6 @@ color:  azure;
 
 
 
-/* author bhavesh intro and countdown Start */
 
 .wordsh1{
     font-family: sans-serif;
@@ -195,14 +194,7 @@ table tr td:last-child{
     text-align: center;
     margin-top: 1em;
 }
-.countdownContainer{
-    color: white;
-    text-align: center;
-    font-family: sans-serif;
-    margin-left:auto; 
-    margin-right:auto;
 
-}
 
 .info{
     font-family: sans-serif;
@@ -211,7 +203,7 @@ table tr td:last-child{
 
 .imglp{
   width:40%;
-  margin-left: 45%;
+  margin-left: 30%;
 }
 @media  (min-width:1000px){
   .imglp{
@@ -221,10 +213,10 @@ table tr td:last-child{
 }
 
 .seclp{
-  margin-left: 35%;
+  margin-left: 20%;
 }
 .RButton{
-  margin-left: 22%;
+  margin-left: 18%;
 
   background-color: #2E76FF; 
   border: none;
@@ -237,6 +229,29 @@ table tr td:last-child{
   border-radius: 6px;
   
 }
+.countdownContainer{
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  margin-left:auto; 
+  margin-right:auto;
+
+}
+.tab1{
+  font-size: 1.3em;font-weight:530
+}
+.tab2{
+  font-size: 1.2em
+}
+.h4s{
+  margin-bottom: 0px; color:  #696969;margin-top: 2.4%;margin-left: 30%;font-size:3em 
+}
+.h1s{
+  margin-top: 0px;color:  #2E76FF ;font-size: 6em;font-weight: 650; margin-left: 15%
+}
+
+/*media query*/
+
 
 @media  (min-width:1000px){
   .seclp{
@@ -258,11 +273,23 @@ table tr td:last-child{
   border-radius: 6px;
   margin-top: 4%;
 }
-
+.tab1{
+  font-size: 1.8em;font-weight:530
+}
+.tab2{
+  font-size: 1.5em
+}
+.h4s{
+  margin-bottom: 0px; color:  #696969;margin-top: 2.4%;margin-left: 40%;font-size:3em 
+}
+.h1s{
+  margin-top: 0px;color:  #2E76FF ;font-size: 6em;font-weight: 650; margin-left: 30%
+}
 }
 
 
 /* author bhavesh intro and countdown End */
+
 
 
 
