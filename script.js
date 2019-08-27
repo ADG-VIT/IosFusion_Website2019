@@ -25,7 +25,7 @@
 function countDown()
 {
     var now = new Date();
-    var eventDate = new Date(2019,9,12);
+    var eventDate = new Date(2019,8,12);
 
     var currentTime = now.getTime();
     var eventTime = eventDate.getTime();
