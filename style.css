@@ -6,34 +6,7 @@ Gray - #B1B1B1
 Dark Grey - #696969 */
 .bg{
     background: #131415;
-}
-#des{
-    position: relative;
-    height: auto;
-    width: auto;
-    margin-top: 13vh;
-    margin-left: 12vw;
-    display: inline-block;
-    background: linear-gradient(90deg,#2E76FF 50%,rgb(6, 15, 153) 50%);
-    padding: 10px;
-    border: 1px solid #08038C;
-    border-radius: 10px;
-    
-}
-
-
-::-webkit-scrollbar {
-    display: none;
-    }
-#des1{
-    display: block;
-    width: 90%;
-    margin: 10vh 50px 10vh 50px;
-    height: 100%;
-    background: #fff;
-    padding: 20px;
-    border-radius:10px;
-    
+    width: 100vw;
 }
 /* nav br*/
 .navbar {
@@ -47,10 +20,13 @@ Dark Grey - #696969 */
     right: 2px !important;
     margin: auto 20px;  
     font-family: "Montserrat-Black", sans-serif;
+<<<<<<< HEAD
     width: 100px;
     text-align:center;
     
 
+=======
+>>>>>>> 7c0f1cfc6b00c1bce1fe6d1c5bebe715f50964bc
   }
   
 .navbar-nav {
@@ -70,17 +46,34 @@ Dark Grey - #696969 */
    
 }
 #img {
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7c0f1cfc6b00c1bce1fe6d1c5bebe715f50964bc
     width: 70px !important;
     size: 100px !important;
     position:relative;
     height: 70px ;
+<<<<<<< HEAD
 
+=======
+    width: 80px !important;
+    size: 100px !important;
+    position:relative;
+    height: 80px ;
+>>>>>>> 7c0f1cfc6b00c1bce1fe6d1c5bebe715f50964bc
      
 }
 
 .reg{
+<<<<<<< HEAD
 
+=======
+    background-color:#2E76FF !important;
+    display: inline-block !important;
+    border-radius: 20px !important;
+    border-color: #2E76FF !important;
+>>>>>>> 7c0f1cfc6b00c1bce1fe6d1c5bebe715f50964bc
     background-color:#2E76FF !important; 
     /* display: inline-block !important; */
     border-radius: 6px !important;
@@ -91,7 +84,10 @@ Dark Grey - #696969 */
     padding:15px;
     
    
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7c0f1cfc6b00c1bce1fe6d1c5bebe715f50964bc
     }
 
 /*nav bar*/
@@ -225,7 +221,7 @@ table tr td:last-child{
 }
 
 .imglp{
-  width:60%;
+  width:70%;
   display: block;
   margin: 0 auto;
 }
@@ -234,7 +230,7 @@ table tr td:last-child{
   margin-left: 14.5%;
 }
 .RButton{
-  margin-left: 16%;
+  margin-left: 20%;
 
   background-color: #2E76FF; 
   border: none;
@@ -282,9 +278,19 @@ table tr td:last-child{
     color: #2E76FF;
     margin-top: 0px;
 }
+.wordsh6d{
+  margin-top: 1%;
+  font-family: "Montserrat-Black", sans-serif;
+  font-size: 1.85em;
 
+  line-height: 1.5;
+  margin-bottom: 5px;
+  margin-top: 0px;
+  margin-left: 1.5%;
+  color: white;
+}
   .imglp{
-    width: 80%;
+    width: 88%;
     margin-left: 0%;
   }
   .seclp{
@@ -339,10 +345,7 @@ table tr td:last-child{
 
 
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 6f399000bbaf4a0e6a2a60c80ef1160f1648a1f7
 /* author bhavesh timline start */
 
  @import url(https://fonts.googleapis.com/css?family=Lato);
@@ -458,7 +461,6 @@ table tr td:last-child{
 }
 
 /* author bhavesh timline end */
-<<<<<<< HEAD
 
 .exp{
   font-family: sans-serif;
@@ -492,14 +494,13 @@ table tr td:last-child{
 .footer_logo{
   padding:2%;
   size:12px;
-  width: 15%;
+  width: 10%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
 
-=======
 .det-text{
   padding-top: 150px;
   text-align: center;
@@ -512,18 +513,6 @@ table tr td:last-child{
   font-size: 4em;
   padding-bottom: 20px; 
 }
-.det{
-  position: relative;
-  display: flex;
-}
-.det1{
-  position: relative;
-  display: block;
-  padding: 15%;
-  border-radius: 10px;
-  background-color: #2E76FF;
- 
-}
 .det1 > img{
   padding-top: 5px; 
   width: 80%;
@@ -531,25 +520,13 @@ table tr td:last-child{
   display: block;
   padding-top: 20px;
 }
-.det1:nth-child(1){
-  margin-left: 6%;
-  padding: 8px 13px;
-}
-.det1:nth-child(2){
-  margin-left: 24%;
-  padding: 5px 13px; 
-}
-.det1:nth-child(3){
-  margin-left: 24%;
-  margin-right: 6%;
-  padding: 8px 13px;
-}
-.det-txt1{
+
+/* .det-txt1{
   text-align: center;
   color: aliceblue;
   font-size: 1.5vw;
   font-weight: 700;
-  padding-top: 15px; 
+  padding-top: 3vh; 
 }
 .det-txt2{
   text-align: center;
@@ -558,10 +535,43 @@ table tr td:last-child{
   padding-top: 0px;
   letter-spacing: 0.08vw;
 }
-@media screen and (max-width: 980px) {
-  .det1{
-    background-color: #2E76FF;
-    width:20%;
-  }
+
+.det{
+  position: relative;
+  display: block;
+  height: 100vh;
+  width: 100vw;
 }
->>>>>>> 6f399000bbaf4a0e6a2a60c80ef1160f1648a1f7
+.det1{
+  position: relative;
+  float: left;
+  border-radius: 10px;
+  background-color: #2E76FF;
+  width: 12vw;
+  height: 42vh;
+ 
+}
+.det1:nth-child(1){
+  margin-left: 5vw;
+  padding: 8px 13px;
+}
+.det1:nth-child(2){
+  margin-left: 27vw;
+  margin-right:27vw;
+  padding: 8px 13px; 
+}
+.det1:nth-child(3){
+  margin-right: 5vw;
+  padding: 8px 13px;
+}
+@media screen and (min-width: 750px)
+{
+  .det1{
+    float: none !important;
+    display: block;
+    margin-left: 30vw !important;
+    margin-top: 10vh !important;
+
+  }
+} */
+
