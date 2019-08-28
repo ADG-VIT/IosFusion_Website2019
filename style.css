@@ -347,18 +347,6 @@ table tr td:last-child{
   font-size: 4em;
   padding-bottom: 20px; 
 }
-.det{
-  position: relative;
-  display: flex;
-}
-.det1{
-  position: relative;
-  display: block;
-  padding: 15%;
-  border-radius: 10px;
-  background-color: #2E76FF;
- 
-}
 .det1 > img{
   padding-top: 5px; 
   width: 80%;
@@ -366,6 +354,22 @@ table tr td:last-child{
   display: block;
   padding-top: 20px;
 }
+@media screen and (min-width: 700px)
+{
+.det{
+  position: relative;
+  display: flex;
+}
+.det1{
+  position: relative;
+  display: inline-block;
+  padding: 15%;
+  border-radius: 10px;
+  background-color: #2E76FF;
+  width: 20%;
+ 
+}
+
 .det1:nth-child(1){
   margin-left: 6%;
   padding: 8px 13px;
@@ -378,6 +382,7 @@ table tr td:last-child{
   margin-left: 24%;
   margin-right: 6%;
   padding: 8px 13px;
+}
 }
 .det-txt1{
   text-align: center;
@@ -393,9 +398,33 @@ table tr td:last-child{
   padding-top: 0px;
   letter-spacing: 0.08vw;
 }
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 700px) {
+  .det{
+    position: absolute;
+    display: inline;
+  }
   .det1{
+    position: absolute;
+    display: inline-block;
+    padding: 15%;
+    border-radius: 10px;
     background-color: #2E76FF;
     width:20%;
+  }
+  .det1:nth-child(1){
+    margin-left: 40%;
+    margin-top: 3%;
+    padding: 8px 13px;
+
+  }
+  .det1:nth-child(2){
+    margin-left: 40%;
+    margin-top: 33%;
+    padding: 5px 13px; 
+  }
+  .det1:nth-child(3){
+    margin-left: 40%;
+    margin-top: 63%;
+    padding: 8px 13px;
   }
 }
