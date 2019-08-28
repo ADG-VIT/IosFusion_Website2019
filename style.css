@@ -6,34 +6,7 @@ Gray - #B1B1B1
 Dark Grey - #696969 */
 .bg{
     background: #131415;
-}
-#des{
-    position: relative;
-    height: auto;
-    width: auto;
-    margin-top: 13vh;
-    margin-left: 12vw;
-    display: inline-block;
-    background: linear-gradient(90deg,#2E76FF 50%,rgb(6, 15, 153) 50%);
-    padding: 10px;
-    border: 1px solid #08038C;
-    border-radius: 10px;
-    
-}
-
-
-::-webkit-scrollbar {
-    display: none;
-    }
-#des1{
-    display: block;
-    width: 90%;
-    margin: 10vh 50px 10vh 50px;
-    height: 100%;
-    background: #fff;
-    padding: 20px;
-    border-radius:10px;
-    
+    width: 100vw;
 }
 /* nav br*/
 .navbar {
@@ -72,27 +45,22 @@ Dark Grey - #696969 */
    
 }
 #img {
-<<<<<<< HEAD
     width: 70px !important;
     size: 100px !important;
     position:relative;
     height: 70px ;
-=======
     width: 80px !important;
     size: 100px !important;
     position:relative;
     height: 80px ;
->>>>>>> 6f399000bbaf4a0e6a2a60c80ef1160f1648a1f7
      
 }
 
 .reg{
-<<<<<<< HEAD
     background-color:#2E76FF !important;
     display: inline-block !important;
     border-radius: 20px !important;
     border-color: #2E76FF !important;
-=======
     background-color:#2E76FF !important; 
     /* display: inline-block !important; */
     border-radius: 6px !important;
@@ -103,7 +71,6 @@ Dark Grey - #696969 */
     padding:15px;
     
    
->>>>>>> 6f399000bbaf4a0e6a2a60c80ef1160f1648a1f7
     }
 
 /*nav bar*/
@@ -451,7 +418,6 @@ table tr td:last-child{
 }
 
 /* author bhavesh timline end */
-<<<<<<< HEAD
 
 .exp{
   font-family: sans-serif;
@@ -492,7 +458,6 @@ table tr td:last-child{
 }
 
 
-=======
 .det-text{
   padding-top: 150px;
   text-align: center;
@@ -512,42 +477,13 @@ table tr td:last-child{
   display: block;
   padding-top: 20px;
 }
-@media screen and (min-width: 700px)
-{
-.det{
-  position: relative;
-  display: flex;
-}
-.det1{
-  position: relative;
-  display: inline-block;
-  padding: 15%;
-  border-radius: 10px;
-  background-color: #2E76FF;
-  width: 20%;
- 
-}
 
-.det1:nth-child(1){
-  margin-left: 6%;
-  padding: 8px 13px;
-}
-.det1:nth-child(2){
-  margin-left: 24%;
-  padding: 5px 13px; 
-}
-.det1:nth-child(3){
-  margin-left: 24%;
-  margin-right: 6%;
-  padding: 8px 13px;
-}
-}
-.det-txt1{
+/* .det-txt1{
   text-align: center;
   color: aliceblue;
   font-size: 1.5vw;
   font-weight: 700;
-  padding-top: 15px; 
+  padding-top: 3vh; 
 }
 .det-txt2{
   text-align: center;
@@ -556,34 +492,43 @@ table tr td:last-child{
   padding-top: 0px;
   letter-spacing: 0.08vw;
 }
-@media screen and (max-width: 700px) {
-  .det{
-    position: absolute;
-    display: inline;
-  }
+
+.det{
+  position: relative;
+  display: block;
+  height: 100vh;
+  width: 100vw;
+}
+.det1{
+  position: relative;
+  float: left;
+  border-radius: 10px;
+  background-color: #2E76FF;
+  width: 12vw;
+  height: 42vh;
+ 
+}
+.det1:nth-child(1){
+  margin-left: 5vw;
+  padding: 8px 13px;
+}
+.det1:nth-child(2){
+  margin-left: 27vw;
+  margin-right:27vw;
+  padding: 8px 13px; 
+}
+.det1:nth-child(3){
+  margin-right: 5vw;
+  padding: 8px 13px;
+}
+@media screen and (min-width: 750px)
+{
   .det1{
-    position: absolute;
-    display: inline-block;
-    padding: 15%;
-    border-radius: 10px;
-    background-color: #2E76FF;
-    width:20%;
-  }
-  .det1:nth-child(1){
-    margin-left: 40%;
-    margin-top: 3%;
-    padding: 8px 13px;
+    float: none !important;
+    display: block;
+    margin-left: 30vw !important;
+    margin-top: 10vh !important;
 
   }
-  .det1:nth-child(2){
-    margin-left: 40%;
-    margin-top: 33%;
-    padding: 5px 13px; 
-  }
-  .det1:nth-child(3){
-    margin-left: 40%;
-    margin-top: 63%;
-    padding: 8px 13px;
-  }
-}
->>>>>>> 6f399000bbaf4a0e6a2a60c80ef1160f1648a1f7
+} */
+
