@@ -159,7 +159,7 @@ color:  azure;
 /* author bhavesh intro and countdown Start */
 .wordsh1{
     font-family: sans-serif;
-    font-size: 7em;
+    font-size: 7.5em;
     line-height: 1.5;
     margin-bottom: 0px;
     font-weight: bold;
@@ -170,7 +170,7 @@ color:  azure;
 .wordsh6u{
     margin-top: 1%;
     font-family: "Montserrat-Black", sans-serif;
-    font-size: 2.14em;
+    font-size: 2.3em;
   
     line-height: 1.5;
     margin-bottom: 0px;
@@ -181,7 +181,7 @@ color:  azure;
 .wordsh6d{
   margin-top: 1%;
   font-family: "Montserrat-Black", sans-serif;
-  font-size: 1.93em;
+  font-size: 2.1em;
 
   line-height: 1.5;
   margin-bottom: 5px;
@@ -224,7 +224,7 @@ table tr td:last-child{
 }
 
 .seclp{
-  margin-left: 19%;
+  margin-left: 14.5%;
 }
 .RButton{
   margin-left: 16%;
