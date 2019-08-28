@@ -47,9 +47,12 @@ Dark Grey - #696969 */
     right: 2px !important;
     margin: auto 20px;  
     font-family: "Montserrat-Black", sans-serif;
+<<<<<<< HEAD
+=======
     width: 100px;
     text-align:center;
     
+>>>>>>> 6f399000bbaf4a0e6a2a60c80ef1160f1648a1f7
   }
   
 .navbar-nav {
@@ -69,14 +72,27 @@ Dark Grey - #696969 */
    
 }
 #img {
+<<<<<<< HEAD
+    width: 70px !important;
+    size: 100px !important;
+    position:relative;
+    height: 70px ;
+=======
     width: 80px !important;
     size: 100px !important;
     position:relative;
     height: 80px ;
+>>>>>>> 6f399000bbaf4a0e6a2a60c80ef1160f1648a1f7
      
 }
 
 .reg{
+<<<<<<< HEAD
+    background-color:#2E76FF !important;
+    display: inline-block !important;
+    border-radius: 20px !important;
+    border-color: #2E76FF !important;
+=======
     background-color:#2E76FF !important; 
     /* display: inline-block !important; */
     border-radius: 6px !important;
@@ -87,6 +103,7 @@ Dark Grey - #696969 */
     padding:15px;
     
    
+>>>>>>> 6f399000bbaf4a0e6a2a60c80ef1160f1648a1f7
     }
 
 /*nav bar*/
@@ -139,47 +156,40 @@ color:  azure;
 /* event description*/
 
 
-
 /* author bhavesh intro and countdown Start */
-
 .wordsh1{
     font-family: sans-serif;
-    font-size: 4.7em;
+    font-size: 7em;
     line-height: 1.5;
     margin-bottom: 0px;
-    font-weight: 550;
+    font-weight: bold;
     margin-left: 1.5%;
     color: #2E76FF;
+    margin-top: 0px;
 }
-.wordsh6{
+.wordsh6u{
     margin-top: 1%;
     font-family: "Montserrat-Black", sans-serif;
-    font-size: 1.3em;
-    font-weight: 500;
+    font-size: 2.14em;
+  
     line-height: 1.5;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
     margin-top: 0px;
     margin-left: 1.5%;
     color: white;
 }
+.wordsh6d{
+  margin-top: 1%;
+  font-family: "Montserrat-Black", sans-serif;
+  font-size: 1.93em;
 
-
-.RButton {
-    
-        background-color: #2E76FF; 
-        border: none;
-        color: white;
-        padding: 0.5% 8%;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        margin-left:23% ;
-        font-size: 16px;
-        font-weight: 700;
-   
-        border-radius: 6px;
-        margin-top: 1%;
+  line-height: 1.5;
+  margin-bottom: 5px;
+  margin-top: 0px;
+  margin-left: 1.5%;
+  color: white;
 }
+
 
 
 
@@ -200,19 +210,120 @@ table tr td:last-child{
     text-align: center;
     margin-top: 1em;
 }
-.countdownContainer{
-    color: white;
-    text-align: center;
-    font-family: sans-serif;
-    margin-left:auto; 
-    margin-right:auto;
 
-}
 
 .info{
     font-family: sans-serif;
     font-size: 5em;
 }
+
+.imglp{
+  width:50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.seclp{
+  margin-left: 19%;
+}
+.RButton{
+  margin-left: 16%;
+
+  background-color: #2E76FF; 
+  border: none;
+  color: white;
+  padding: 2% 14%;
+  text-align: center;
+  text-decoration: none;
+
+  font-size: 1.5rem;
+  border-radius: 6px;
+  
+}
+.countdownContainer{
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  margin-left:auto; 
+  margin-right:auto;
+
+}
+.tab1{
+  font-size: 1.3em;font-weight:530
+}
+.tab2{
+  font-size: 1.2em
+}
+.h4s{
+  margin-bottom: 0px; color:  #696969;margin-top: 2.4%;text-align: center;font-size:3em 
+}
+.h1s{
+  margin-top: 0px;color:  #2E76FF ;font-size: 6em;font-weight: 650; text-align: center
+}
+
+/*media query start*/
+
+
+@media  (min-width:1000px){
+  .wordsh1{
+    font-family: sans-serif;
+    font-size: 6.5em;
+    line-height: 1.5;
+    margin-bottom: 0px;
+    font-weight: bold;
+    margin-left: 1.5%;
+    color: #2E76FF;
+    margin-top: 0px;
+}
+
+  .imglp{
+    width: 80%;
+    margin-left: 0%;
+  }
+  .seclp{
+    margin-left: 8%;align-content: center
+  }
+  .wordsh6u{
+    margin-top: 1%;
+    font-family: "Montserrat-Black", sans-serif;
+    font-size: 1.9em;
+  
+    line-height: 1.5;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 1.5%;
+    color: white;
+}
+  
+.RButton {
+    
+  background-color: #2E76FF; 
+  border: none;
+  color: white;
+  padding: 2% 14%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 3%;
+  font-size: 1.5rem;
+  border-radius: 6px;
+  margin-top: 4%;
+}
+.tab1{
+  font-size: 1.8em;font-weight:530
+}
+.tab2{
+  font-size: 1.5em
+}
+.h4s{
+  margin-bottom: 0px; color:  #696969;margin-top: 2.4%;text-align: center;font-size:3em 
+}
+.h1s{
+  margin-top: 0px;color:  #2E76FF ;font-size: 6em;font-weight: 650; text-align: center
+}
+}
+
+
 /* author bhavesh intro and countdown End */
 
 
@@ -220,6 +331,11 @@ table tr td:last-child{
 
 
 
+
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6f399000bbaf4a0e6a2a60c80ef1160f1648a1f7
 /* author bhavesh timline start */
 
  @import url(https://fonts.googleapis.com/css?family=Lato);
@@ -335,6 +451,48 @@ table tr td:last-child{
 }
 
 /* author bhavesh timline end */
+<<<<<<< HEAD
+
+.exp{
+  font-family: sans-serif;
+  color: #fff;
+  
+}
+
+.contact{
+  color: #131415;
+  height: 60vh;
+}
+
+.ll{
+  font-family: sans-serif;
+  color:#B1B1B1;
+  
+}
+.newsletter{
+  background: #2E76FF;
+  height: 50vh;
+  text-align: center;
+}
+.news{
+  padding-top: 20vh;
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 50px;
+  color: white;
+}
+
+.footer_logo{
+  padding:2%;
+  size:12px;
+  width: 15%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+=======
 .det-text{
   padding-top: 150px;
   text-align: center;
@@ -428,3 +586,4 @@ table tr td:last-child{
     padding: 8px 13px;
   }
 }
+>>>>>>> 6f399000bbaf4a0e6a2a60c80ef1160f1648a1f7
