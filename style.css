@@ -275,7 +275,17 @@ table tr td:last-child{
     color: #2E76FF;
     margin-top: 0px;
 }
+.wordsh6d{
+  margin-top: 1%;
+  font-family: "Montserrat-Black", sans-serif;
+  font-size: 1.85em;
 
+  line-height: 1.5;
+  margin-bottom: 5px;
+  margin-top: 0px;
+  margin-left: 1.5%;
+  color: white;
+}
   .imglp{
     width: 80%;
     margin-left: 0%;
