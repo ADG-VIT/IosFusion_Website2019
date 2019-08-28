@@ -47,12 +47,10 @@ Dark Grey - #696969 */
     right: 2px !important;
     margin: auto 20px;  
     font-family: "Montserrat-Black", sans-serif;
-<<<<<<< HEAD
-=======
     width: 100px;
     text-align:center;
     
->>>>>>> 6f399000bbaf4a0e6a2a60c80ef1160f1648a1f7
+
   }
   
 .navbar-nav {
@@ -72,27 +70,17 @@ Dark Grey - #696969 */
    
 }
 #img {
-<<<<<<< HEAD
+
     width: 70px !important;
     size: 100px !important;
     position:relative;
     height: 70px ;
-=======
-    width: 80px !important;
-    size: 100px !important;
-    position:relative;
-    height: 80px ;
->>>>>>> 6f399000bbaf4a0e6a2a60c80ef1160f1648a1f7
+
      
 }
 
 .reg{
-<<<<<<< HEAD
-    background-color:#2E76FF !important;
-    display: inline-block !important;
-    border-radius: 20px !important;
-    border-color: #2E76FF !important;
-=======
+
     background-color:#2E76FF !important; 
     /* display: inline-block !important; */
     border-radius: 6px !important;
@@ -103,56 +91,75 @@ Dark Grey - #696969 */
     padding:15px;
     
    
->>>>>>> 6f399000bbaf4a0e6a2a60c80ef1160f1648a1f7
+
     }
 
 /*nav bar*/
 /* event description*/
 #h5{
-    color: #2E76FF ;
+    color: #696969 ;
     padding-top: 8%;
     padding-bottom: 0%;
-    padding-left: 42%;
+    padding-left: 35%;
     font-family: "Montserrat-Black", sans-serif;
+    font-size:2em; 
 
 }
 #h1{
     color: #2E76FF !important;
-    padding-left: 35%;
+    padding-left: 29% !important;
     font-family: "Montserrat-Black", sans-serif;
+    font-size:3em !important;
     /*padding-bottom: 1.5% !important;*/
 }
 #laptop{
-    height: 210px;
+    height: 230px;
 }
 .laptop1 {
     float: left;
-    padding: 50px;
-    padding-left: 80px;
-    padding-right: 100px;
-    padding-top: 100px;
+    padding-top: 120px;
+    padding-left: 18%;
 }
 .laptop1 img {
     display: block;
 }
 .laptop2 {
-    margin-left: 210px;
-    padding: 50px;
     color: white;
     text-align: justify;
-    font-size: 18px !important;
+    font-size: 22px !important;
     font-family: "Montserrat-Black", sans-serif;
+    float: right;
+    padding-top: 60px;
+    padding-left: 50px;
+    padding-right: 70px;
 }
 
-/* #laptop{
-    height: 200px !important;
+#laptop{
+    height: 310px !important;
 }
 #laptop2{
-    padding: 50px;
-} */
+     padding: 50px; 
+} 
 .text{
 color:  azure;
 }
+@media  (min-width:1000px){
+  .h5s{
+    margin-bottom: 0px;
+    color:  #696969;
+    margin-top: 2.4%;
+    text-align: center;
+    font-size:3em; 
+  }
+  .h1s{
+    margin-top: 0px;
+    color:  #2E76FF ;
+    font-size: 6em;
+    font-weight: 650;
+    text-align: center;
+  }
+
+
 /* event description*/
 
 
