@@ -533,3 +533,49 @@ table tr td:last-child{
   }
 } */
 
+.des{
+  padding-top: 60px;
+  text-align: center;
+  color: #08038C; 
+}
+.des > h1
+{
+  color: #2E76FF;
+  padding-top: 10px;
+  font-size: 3em;
+  padding-bottom: 20px; 
+}
+.card-txt1{
+  text-align: justify;
+  color: black;
+  font-size: 110%;
+  letter-spacing: 0.08vw;
+}
+.crd{
+  margin: 50px auto 50px;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(350px ,1fr));
+  grid-gap: 20px;
+}
+.crd .crd_layers{
+  position: relative;
+  width: 350px;
+  background: #fff;
+  height: 240px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: justify;
+  box-shadow: 0.1vw 0.1vw 1vw 0.2vw rgb(12, 49, 116);
+  border-radius: 10px;
+
+}
+.crd .crd_layers:hover .layers{
+  top: 0;
+  cursor: pointer;
+}
+.crd .crd_layers .card_details{
+  position: relative;
+  z-index: 2;
+}
