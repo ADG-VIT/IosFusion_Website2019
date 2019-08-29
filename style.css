@@ -6,7 +6,7 @@ Gray - #B1B1B1
 Dark Grey - #696969 */
 .bg{
     background: #131415;
-    width: 100vw;
+    width: 100%;
 }
 /* nav br*/
 .navbar {
@@ -74,6 +74,8 @@ Dark Grey - #696969 */
 
 /*nav bar*/
 /* event description*/
+
+
 #h5{
     color: #696969 ;
     padding-top: 8%;
@@ -142,6 +144,10 @@ color:  azure;
 
 
 /* author bhavesh intro and countdown Start */
+
+.topSec{
+  height: 100vh;
+}
 .wordsh1{
     font-family: sans-serif;
     font-size: 7.5em;
@@ -249,10 +255,13 @@ table tr td:last-child{
 /*media query start*/
 
 
-@media  (min-width:1000px){
+@media  (min-width:750px){
+  .topSec{
+    height:85vh;
+  }
   .wordsh1{
     font-family: sans-serif;
-    font-size: 6.5em;
+    font-size: 8.5em;
     line-height: 1.5;
     margin-bottom: 0px;
     font-weight: bold;
@@ -263,7 +272,7 @@ table tr td:last-child{
 .wordsh6d{
   margin-top: 1%;
   font-family: "Montserrat-Black", sans-serif;
-  font-size: 1.85em;
+  font-size: 2.5em;
 
   line-height: 1.5;
   margin-bottom: 5px;
@@ -273,15 +282,19 @@ table tr td:last-child{
 }
   .imglp{
     width: 88%;
-    margin-left: 0%;
+    margin-left: 20vw;
+    padding-top: 5vh;
+    /* padding:; */
   }
   .seclp{
-    margin-left: 8%;align-content: center
+    margin-left: 17vw; text-align: center;
+    margin-top: -15vh !important;
+    width:90vw;
   }
   .wordsh6u{
     margin-top: 1%;
     font-family: "Montserrat-Black", sans-serif;
-    font-size: 1.9em;
+    font-size: 2.5em;
   
     line-height: 1.5;
     margin-bottom: 0px;
@@ -300,7 +313,7 @@ table tr td:last-child{
   text-decoration: none;
   display: inline-block;
   margin-left: 3%;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   border-radius: 6px;
   margin-top: 4%;
 }
@@ -311,10 +324,12 @@ table tr td:last-child{
   font-size: 1.5em
 }
 .h4s{
-  margin-bottom: 0px; color:  #696969;margin-top: 2.4%;text-align: center;font-size:3em 
+  margin-bottom: 0px; color:  #696969;margin-top: 0.5vh;text-align: center;font-size:3em;
+  margin-left: 25vw;
 }
 .h1s{
-  margin-top: 0px;color:  #2E76FF ;font-size: 6em;font-weight: 650; text-align: center
+  margin-top: 0px;color:  #2E76FF ;font-size: 6em;font-weight: 650; text-align: center;
+  margin-left: 25vw;
 }
 }
 
