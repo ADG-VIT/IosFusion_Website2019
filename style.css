@@ -20,13 +20,10 @@ Dark Grey - #696969 */
     right: 2px !important;
     margin: auto 20px;  
     font-family: "Montserrat-Black", sans-serif;
-<<<<<<< HEAD
     width: 100px;
     text-align:center;
     
 
-=======
->>>>>>> 7c0f1cfc6b00c1bce1fe6d1c5bebe715f50964bc
   }
   
 .navbar-nav {
@@ -46,34 +43,23 @@ Dark Grey - #696969 */
    
 }
 #img {
-<<<<<<< HEAD
-
-=======
->>>>>>> 7c0f1cfc6b00c1bce1fe6d1c5bebe715f50964bc
     width: 70px !important;
     size: 100px !important;
     position:relative;
     height: 70px ;
-<<<<<<< HEAD
-
-=======
     width: 80px !important;
     size: 100px !important;
     position:relative;
     height: 80px ;
->>>>>>> 7c0f1cfc6b00c1bce1fe6d1c5bebe715f50964bc
      
 }
 
 .reg{
-<<<<<<< HEAD
 
-=======
     background-color:#2E76FF !important;
     display: inline-block !important;
     border-radius: 20px !important;
     border-color: #2E76FF !important;
->>>>>>> 7c0f1cfc6b00c1bce1fe6d1c5bebe715f50964bc
     background-color:#2E76FF !important; 
     /* display: inline-block !important; */
     border-radius: 6px !important;
@@ -84,10 +70,6 @@ Dark Grey - #696969 */
     padding:15px;
     
    
-<<<<<<< HEAD
-
-=======
->>>>>>> 7c0f1cfc6b00c1bce1fe6d1c5bebe715f50964bc
     }
 
 /*nav bar*/
@@ -154,7 +136,7 @@ color:  azure;
     font-weight: 650;
     text-align: center;
   }
-
+}
 
 /* event description*/
 
