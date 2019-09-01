@@ -520,67 +520,61 @@ margin-top: 0px;color:  #2E76FF ;font-size: 6em;font-weight: 650; text-align: ce
   font-size: 4em;
   padding-bottom: 20px; 
 }
+.det{
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.det1{
+  position: relative;
+  /* float: left; */
+  border-radius: 10px;
+  background-color: #2E76FF;
+  width: 190px;
+  height: 240px;
+ 
+}
+
+.det .det1:nth-child(1){
+  margin: 20px;
+  padding: 8px 13px;
+}
+.det .det1:nth-child(2){
+  margin: 20px;
+  padding: 8px 13px; 
+}
+.det .det1:nth-child(3){
+  margin: 20px;
+  padding: 8px 13px;
+}
 .det1 > img{
-  padding-top: 5px; 
-  width: 80%;
+  width: 110px;
   margin: auto;
   display: block;
   padding-top: 20px;
 }
 
-/* .det-txt1{
+<<<<<<< HEAD
+  }
+} */
+=======
+.det-txt1{
   text-align: center;
   color: aliceblue;
-  font-size: 1.5vw;
+  font-size: 20px;
   font-weight: 700;
-  padding-top: 3vh; 
+  padding-top: 1vh; 
 }
 .det-txt2{
   text-align: center;
   color: aliceblue;
-  font-size: 1.1vw;
+  font-size: 15px;
   padding-top: 0px;
   letter-spacing: 0.08vw;
+  font-weight: 200;
 }
 
-.det{
-  position: relative;
-  display: block;
-  height: 100vh;
-  width: 100vw;
-}
-.det1{
-  position: relative;
-  float: left;
-  border-radius: 10px;
-  background-color: #2E76FF;
-  width: 12vw;
-  height: 42vh;
- 
-}
-.det1:nth-child(1){
-  margin-left: 5vw;
-  padding: 8px 13px;
-}
-.det1:nth-child(2){
-  margin-left: 27vw;
-  margin-right:27vw;
-  padding: 8px 13px; 
-}
-.det1:nth-child(3){
-  margin-right: 5vw;
-  padding: 8px 13px;
-}
-@media screen and (min-width: 750px)
-{
-  .det1{
-    float: none !important;
-    display: block;
-    margin-left: 30vw !important;
-    margin-top: 10vh !important;
-
-  }
-} */
+>>>>>>> refs/remotes/origin/master
 .des{
   padding-top: 60px;
   text-align: center;
@@ -596,34 +590,15 @@ margin-top: 0px;color:  #2E76FF ;font-size: 6em;font-weight: 650; text-align: ce
 .card-txt1{
   text-align: justify;
   color: black;
-  font-size: 110%;
+  font-size: 120%;
   letter-spacing: 0.08vw;
 }
-.crd{
-  margin: 50px auto 50px;
-  position: relative;
-  display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(350px ,1fr));
-  grid-gap: 20px;
-}
-.crd .crd_layers{
-  position: relative;
-  width: 350px;
-  background: #fff;
-  height: 240px;
-  margin: 0 auto;
-  padding: 20px;
+.card-1 {
+  padding: 10px 10px 10px 10px;
   box-sizing: border-box;
-  text-align: justify;
   box-shadow: 0.1vw 0.1vw 1vw 0.2vw rgb(12, 49, 116);
-  border-radius: 10px;
+  margin: 2%;
+  
+}
 
-}
-.crd .crd_layers:hover .layers{
-  top: 0;
-  cursor: pointer;
-}
-.crd .crd_layers .card_details{
-  position: relative;
-  z-index: 2;
-}
+
