@@ -145,40 +145,37 @@ color:  azure;
 
 /* author bhavesh intro and countdown Start */
 
-.topSec{
-  height: 100vh;
-}
 .wordsh1{
-    font-family: sans-serif;
-    font-size: 7.5em;
-    line-height: 1.5;
-    margin-bottom: 0px;
-    font-weight: bold;
-    margin-left: 1.5%;
-    color: #2E76FF;
-    margin-top: 0px;
+  font-family: sans-serif;
+  font-size: 7.5em;
+  line-height: 1.5;
+  margin-bottom: 0px;
+  font-weight: bold;
+  margin-left: 1.5%;
+  color: #2E76FF;
+  margin-top: 0px;
 }
 .wordsh6u{
-    margin-top: 1%;
-    font-family: "Montserrat-Black", sans-serif;
-    font-size: 2.3em;
-  
-    line-height: 1.5;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    margin-left: 1.5%;
-    color: white;
-}
-.wordsh6d{
   margin-top: 1%;
   font-family: "Montserrat-Black", sans-serif;
-  font-size: 2.1em;
+  font-size: 2.3em;
 
   line-height: 1.5;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
   margin-top: 0px;
   margin-left: 1.5%;
   color: white;
+}
+.wordsh6d{
+margin-top: 1%;
+font-family: "Montserrat-Black", sans-serif;
+font-size: 2.1em;
+
+line-height: 1.5;
+margin-bottom: 5px;
+margin-top: 0px;
+margin-left: 1.5%;
+color: white;
 }
 
 
@@ -187,119 +184,121 @@ color:  azure;
 
 
 table tr td{
-    padding-right: 0.5em;
-    padding-left:  0.5em;
-    border-right: 1px solid #696969;
-  }
+  padding-right: 0.5em;
+  padding-left:  0.5em;
+  border-right: 1px solid #696969;
+}
 table tr td:last-child{
-    border-right: none;
+  border-right: none;
 }
 .adg_txt{
-    text-align: left;
+  text-align: left;
 }
 .txt_centre{
-    text-align: center;
-    margin-top: 1em;
+  text-align: center;
+  margin-top: 1em;
 }
 
 
 .info{
-    font-family: sans-serif;
-    font-size: 5em;
+  font-family: sans-serif;
+  font-size: 5em;
 }
 
 .imglp{
-  width:70%;
-  display: block;
-  margin: 0 auto;
+width:60%;
+display: block;
+margin: 0 auto;
 }
 
 .seclp{
-  margin-left: 14.5%;
+margin-left: 14.5%;
 }
 .RButton{
-  margin-left: 20%;
+margin-left: 20%;
 
-  background-color: #2E76FF; 
-  border: none;
-  color: white;
-  padding: 2% 14%;
-  text-align: center;
-  text-decoration: none;
+background-color: #2E76FF; 
+border: none;
+color: white;
+padding: 2% 14%;
+text-align: center;
+text-decoration: none;
 
-  font-size: 1.5rem;
-  border-radius: 6px;
-  
+font-size: 1.5rem;
+border-radius: 6px;
+
 }
 .countdownContainer{
-  color: white;
-  text-align: center;
-  font-family: sans-serif;
-  margin-left:auto; 
-  margin-right:auto;
+color: white;
+text-align: center;
+font-family: sans-serif;
+margin-left:auto; 
+margin-right:auto;
 
 }
 .tab1{
-  font-size: 1.3em;font-weight:530
+font-size: 1.3em;font-weight:530
 }
 .tab2{
-  font-size: 1.2em
+font-size: 1.2em
 }
 .h4s{
-  margin-bottom: 0px; color:  #696969;margin-top: 2.4%;text-align: center;font-size:3em 
+margin-bottom: 0px; color:  #696969;margin-top: 2.4%;text-align: center;font-size:3em 
 }
 .h1s{
-  margin-top: 0px;color:  #2E76FF ;font-size: 6em;font-weight: 650; text-align: center
+margin-top: 0px;color:  #2E76FF ;font-size: 6em;font-weight: 650; text-align: center
+}
+.imgtim{
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+  margin-bottom: 5%;
 }
 
 /*media query start*/
 
 
-@media  (min-width:750px){
-  .topSec{
-    height:85vh;
-  }
+@media  (min-width:1000px){
+
   .wordsh1{
     font-family: sans-serif;
-    font-size: 8.5em;
+    font-size: 6.8em;
     line-height: 1.5;
     margin-bottom: 0px;
     font-weight: bold;
-    margin-left: 1.5%;
+
     color: #2E76FF;
     margin-top: 0px;
 }
 .wordsh6d{
-  margin-top: 1%;
+  margin-top: 0%;
   font-family: "Montserrat-Black", sans-serif;
-  font-size: 2.5em;
+  font-size: 1.9em;
 
   line-height: 1.5;
   margin-bottom: 5px;
   margin-top: 0px;
-  margin-left: 1.5%;
+  
   color: white;
 }
   .imglp{
-    width: 88%;
-    margin-left: 20vw;
-    padding-top: 5vh;
-    /* padding:; */
+    width: 85%;
+    margin-left: 5%;
+   
   }
   .seclp{
-    margin-left: 17vw; text-align: center;
-    margin-top: -15vh !important;
-    width:90vw;
+    margin-left: 8%; 
+    margin-top: 10%;
+    
+   
   }
   .wordsh6u{
-    margin-top: 1%;
+    margin-top: 0%;
     font-family: "Montserrat-Black", sans-serif;
-    font-size: 2.5em;
-  
+    font-size: 2em;
     line-height: 1.5;
     margin-bottom: 0px;
     margin-top: 0px;
-    margin-left: 1.5%;
     color: white;
 }
   
@@ -308,28 +307,39 @@ table tr td:last-child{
   background-color: #2E76FF; 
   border: none;
   color: white;
-  padding: 2% 14%;
+  padding: 2% 18%;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   margin-left: 3%;
-  font-size: 2.5rem;
+  font-size: 2rem;
+  font-weight: 600;
   border-radius: 6px;
   margin-top: 4%;
 }
+.countdownContainer{
+  margin-top: 10px;
+}
 .tab1{
-  font-size: 1.8em;font-weight:530
+  font-size: 1.8em;font-weight:550
 }
 .tab2{
   font-size: 1.5em
 }
 .h4s{
   margin-bottom: 0px; color:  #696969;margin-top: 0.5vh;text-align: center;font-size:3em;
-  margin-left: 25vw;
+  margin-top: 5%;
+  
 }
 .h1s{
   margin-top: 0px;color:  #2E76FF ;font-size: 6em;font-weight: 650; text-align: center;
-  margin-left: 25vw;
+  
+}
+.imgtim{
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+  margin-bottom: 5%;
 }
 }
 
