@@ -548,7 +548,6 @@ margin-top: 0px;color:  #2E76FF ;font-size: 6em;font-weight: 650; text-align: ce
   padding: 8px 13px;
 }
 .det1 > img{
-  padding-top: 5px; 
   width: 110px;
   margin: auto;
   display: block;
@@ -560,7 +559,7 @@ margin-top: 0px;color:  #2E76FF ;font-size: 6em;font-weight: 650; text-align: ce
   color: aliceblue;
   font-size: 20px;
   font-weight: 700;
-  padding-top: 3vh; 
+  padding-top: 1vh; 
 }
 .det-txt2{
   text-align: center;
