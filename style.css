@@ -532,6 +532,7 @@ margin-top: 0px;color:  #2E76FF ;font-size: 6em;font-weight: 650; text-align: ce
   background-color: #2E76FF;
   width: 190px;
   height: 240px;
+  margin: auto;
  
 }
 
@@ -548,7 +549,7 @@ margin-top: 0px;color:  #2E76FF ;font-size: 6em;font-weight: 650; text-align: ce
   padding: 8px 13px;
 }
 .det1 > img{
-  width: 110px;
+  width: 60%;
   margin: auto;
   display: block;
   padding-top: 20px;
@@ -557,17 +558,17 @@ margin-top: 0px;color:  #2E76FF ;font-size: 6em;font-weight: 650; text-align: ce
 .det-txt1{
   text-align: center;
   color: aliceblue;
-  font-size: 20px;
+  font-size: 1.5em;
   font-weight: 700;
-  padding-top: 1vh; 
+  padding-top: 1em; 
 }
 .det-txt2{
   text-align: center;
   color: aliceblue;
-  font-size: 15px;
+  font-size: 1em;
   padding-top: 0px;
   letter-spacing: 0.08vw;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .des{
@@ -589,11 +590,8 @@ margin-top: 0px;color:  #2E76FF ;font-size: 6em;font-weight: 650; text-align: ce
   letter-spacing: 0.08vw;
 }
 .card-1 {
-  padding: 10px 10px 10px 10px;
+  padding: 20px;
   box-sizing: border-box;
   box-shadow: 0.1vw 0.1vw 1vw 0.2vw rgb(12, 49, 116);
   margin: 2%;
-  
 }
-
-
