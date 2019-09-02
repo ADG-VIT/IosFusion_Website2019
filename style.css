@@ -570,7 +570,9 @@ margin-top: 0px;color:  #2E76FF ;font-size: 6em;font-weight: 650; text-align: ce
   letter-spacing: 0.08vw;
   font-weight: 300;
 }
-
+#desc{
+  margin-bottom: 150px;
+}
 .des{
   padding-top: 60px;
   text-align: center;
