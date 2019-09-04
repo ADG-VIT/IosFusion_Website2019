@@ -6,11 +6,14 @@ Gray - #B1B1B1
 Dark Grey - #696969 */
 .bg{
     background: #131415;
-    width: 100%;
+    width: 100vw !important;
+    overflow-x: hidden;
 }
+
 /* nav br*/
+
 .navbar {
-    background: #131415 !important;
+    background: #131415;
     size:800px;
   }
 
