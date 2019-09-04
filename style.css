@@ -22,15 +22,12 @@ Dark Grey - #696969 */
     font-family: "Montserrat-Black", sans-serif;
     width: 100px;
     text-align:center;
-    
-
   }
   
 .navbar-nav {
-    float: right;
-    right: 5px;
-    position: fixed !important;
-    margin: 10px 50px !important;
+    float: right !important;
+    position: relative;
+    margin: 5px 50px !important;
   }
 
 .nav-link {
@@ -43,14 +40,12 @@ Dark Grey - #696969 */
    
 }
 #img {
-    width: 70px !important;
-    size: 100px !important;
-    position:relative;
-    height: 70px ;
     width: 80px !important;
     size: 100px !important;
+    bottom: 150%;
     position:relative;
-    height: 80px ;
+    float: left !important;
+    height: 80px !important;
      
 }
 
@@ -76,41 +71,24 @@ Dark Grey - #696969 */
 /* event description*/
 
 
-#h5{
-    color: #696969 ;
-    padding-top: 8%;
-    padding-bottom: 0%;
-    padding-left: 35%;
-    font-family: "Montserrat-Black", sans-serif;
-    font-size:2em; 
-
-}
-#h1{
-    color: #2E76FF !important;
-    padding-left: 29% !important;
-    font-family: "Montserrat-Black", sans-serif;
-    font-size:3em !important;
-    /*padding-bottom: 1.5% !important;*/
-}
 #laptop{
     height: 230px;
+    display: block;
+    margin: auto;
 }
 .laptop1 {
     float: left;
-    padding-top: 120px;
-    padding-left: 18%;
-}
-.laptop1 img {
-    display: block;
+    padding-top: 80px;
+    padding-left: 19% !important;
+    margin: auto;
 }
 .laptop2 {
     color: white;
     text-align: justify;
     font-size: 22px !important;
-    font-family: "Montserrat-Black", sans-serif;
     float: right;
     padding-top: 60px;
-    padding-left: 50px;
+    padding-left: 70px;
     padding-right: 70px;
 }
 
@@ -123,7 +101,7 @@ Dark Grey - #696969 */
 .text{
 color:  azure;
 }
-@media  (min-width:1000px){
+@media  (min-width:780px){
   .h5s{
     margin-bottom: 0px;
     color:  #696969;
@@ -251,7 +229,7 @@ margin-top: 0px;color:  #2E76FF ;font-size: 7em;font-weight: 650; text-align: ce
 /*media query start*/
 
 
-@media  (min-width:1000px){
+@media  (min-width:780px){
 
   .wordsh1{
     font-family: sans-serif;
@@ -459,7 +437,7 @@ margin-top: 0px;color:  #2E76FF ;font-size: 7em;font-weight: 650; text-align: ce
 .card-txt1{
   text-align: justify;
   color: black;
-  font-size: 120%;
+  font-size: 140%;
   letter-spacing: 0.08vw;
 }
 .card-1 {
@@ -467,4 +445,9 @@ margin-top: 0px;color:  #2E76FF ;font-size: 7em;font-weight: 650; text-align: ce
   box-sizing: border-box;
   box-shadow: 0.1vw 0.1vw 1vw 0.2vw rgb(12, 49, 116);
   margin: 2%;
+  border-radius: 10px !important;
+  height: 100%;
+}
+.det2{
+  padding: 10px;
 }
