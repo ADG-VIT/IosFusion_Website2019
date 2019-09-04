@@ -11,7 +11,10 @@ Dark Grey - #696969 */
 }
 
 /* nav br*/
-
+.sticky-top{
+  position: fixed;
+  top:0;
+}
 .navbar {
     background: #131415;
     size:800px;
