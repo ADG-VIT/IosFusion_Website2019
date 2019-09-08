@@ -11,26 +11,26 @@ Dark Grey - #696969 */
 /* nav br*/
 .navbar {
     background: #131415 !important;
-    size:800px;
+    size:600px;
   }
 
   
 .nav-item {
     float: right !important;
     right: 2px !important;
-    margin: auto 20px;  
+    margin: auto 10px;  
     font-family: "Montserrat-Black", sans-serif;
     width: 100px;
     text-align:center;
     
-
-  }
+    }
   
 .navbar-nav {
     float: right;
     right: 5px;
     position: fixed !important;
     margin: 10px 50px !important;
+    padding:0.01%;
   }
 
 .nav-link {
@@ -39,20 +39,15 @@ Dark Grey - #696969 */
 
 .nav-link:hover {
 
-   border-bottom: 2px solid  #2E76FF;
+  border-bottom: 2px solid  #2E76FF;
    
 }
 #img {
-    width: 70px !important;
     size: 100px !important;
     position:relative;
-    height: 70px ;
     width: 80px !important;
-    size: 100px !important;
-    position:relative;
     height: 80px ;
-     
-}
+    }
 
 .reg{
 
