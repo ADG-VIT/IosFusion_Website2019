@@ -235,7 +235,7 @@ margin-top: 0px;color:  #2E76FF ;font-size: 7em;font-weight: 650; text-align: ce
 /*media query start*/
 
 
-@media  (min-width:780px){
+@media  (min-width:1000px){
 
   .wordsh1{
     font-family: sans-serif;
