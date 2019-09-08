@@ -333,8 +333,9 @@ margin-top: 0px;color:  #2E76FF ;font-size: 7em;font-weight: 650; text-align: ce
 
 .contact{
   color: #131415;
-  height: 40vh;
+  height: fit-content;
   padding-top:4vh;
+  padding-bottom: 4vh;
 }
 
 .ll{
@@ -344,7 +345,7 @@ margin-top: 0px;color:  #2E76FF ;font-size: 7em;font-weight: 650; text-align: ce
 }
 .newsletter{
   background: #2E76FF;
-  height: 20vh;
+  height: 2vh;
   text-align: center;
 }
 .news{
@@ -356,14 +357,21 @@ margin-top: 0px;color:  #2E76FF ;font-size: 7em;font-weight: 650; text-align: ce
 }
 
 .footer_logo{
-  padding-top:2vh;
-  padding-bottom:2vh;
-  width: 17%;
+  padding-top:3vh;
+  padding-bottom:1vh;
   display: block;
-  margin-left: 38vw;
+  margin-left: 43vw;
   margin-right: auto;
 }
 
+.footer_logo>img{
+  width:20%;
+}
+@media only screen and (max-width: 780px){
+  .footer_logo>img{
+    width:30%;
+  }
+}
 
 .det-text{
   padding-top: 150px;
