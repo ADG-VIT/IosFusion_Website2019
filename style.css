@@ -6,12 +6,18 @@ Gray - #B1B1B1
 Dark Grey - #696969 */
 .bg{
     background: #131415;
-    width: 100%;
+    width: 100vw !important;
+    overflow-x: hidden;
 }
+
 /* nav br*/
+.sticky-top{
+  position: fixed;
+  top:0;
+}
 .navbar {
-    background: #131415 !important;
-    size:600px;
+    background: #131415;
+    size:800px;
   }
 
   
@@ -22,15 +28,12 @@ Dark Grey - #696969 */
     font-family: "Montserrat-Black", sans-serif;
     width: 100px;
     text-align:center;
-    
-    }
+  }
   
 .navbar-nav {
-    float: right;
-    right: 5px;
-    position: fixed !important;
-    margin: 10px 50px !important;
-    padding:0.01%;
+    float: right !important;
+    position: relative;
+    margin: 5px 50px !important;
   }
 
 .nav-link {
@@ -43,11 +46,14 @@ Dark Grey - #696969 */
    
 }
 #img {
-    size: 100px !important;
-    position:relative;
     width: 80px !important;
-    height: 80px ;
-    }
+    size: 100px !important;
+    bottom: 150%;
+    position:relative;
+    float: left !important;
+    height: 80px !important;
+     
+}
 
 .reg{
 
@@ -71,41 +77,24 @@ Dark Grey - #696969 */
 /* event description*/
 
 
-#h5{
-    color: #696969 ;
-    padding-top: 8%;
-    padding-bottom: 0%;
-    padding-left: 35%;
-    font-family: "Montserrat-Black", sans-serif;
-    font-size:2em; 
-
-}
-#h1{
-    color: #2E76FF !important;
-    padding-left: 29% !important;
-    font-family: "Montserrat-Black", sans-serif;
-    font-size:3em !important;
-    /*padding-bottom: 1.5% !important;*/
-}
 #laptop{
     height: 230px;
+    display: block;
+    margin: auto;
 }
 .laptop1 {
     float: left;
-    padding-top: 120px;
-    padding-left: 18%;
-}
-.laptop1 img {
-    display: block;
+    padding-top: 80px;
+    padding-left: 19% !important;
+    margin: auto;
 }
 .laptop2 {
     color: white;
     text-align: justify;
     font-size: 22px !important;
-    font-family: "Montserrat-Black", sans-serif;
     float: right;
     padding-top: 60px;
-    padding-left: 50px;
+    padding-left: 70px;
     padding-right: 70px;
 }
 
@@ -118,7 +107,7 @@ Dark Grey - #696969 */
 .text{
 color:  azure;
 }
-@media  (min-width:1000px){
+@media  (min-width:780px){
   .h5s{
     margin-bottom: 0px;
     color:  #696969;
@@ -337,27 +326,29 @@ margin-top: 0px;color:  #2E76FF ;font-size: 7em;font-weight: 650; text-align: ce
 
 .exp{
   font-family: sans-serif;
+  font-size: 3vh;
   color: #fff;
   
 }
 
 .contact{
   color: #131415;
-  height: 60vh;
+  height: 40vh;
+  padding-top:4vh;
 }
 
 .ll{
   font-family: sans-serif;
+  font-size: 2vh;
   color:#B1B1B1;
-  
 }
 .newsletter{
   background: #2E76FF;
-  height: 50vh;
+  height: 20vh;
   text-align: center;
 }
 .news{
-  padding-top: 20vh;
+  padding-top: 8vh;
   font-family: sans-serif;
   font-weight: bolder;
   font-size: 50px;
@@ -365,11 +356,11 @@ margin-top: 0px;color:  #2E76FF ;font-size: 7em;font-weight: 650; text-align: ce
 }
 
 .footer_logo{
-  padding:2%;
-  size:12px;
-  width: 10%;
+  padding-top:2vh;
+  padding-bottom:2vh;
+  width: 17%;
   display: block;
-  margin-left: auto;
+  margin-left: 38vw;
   margin-right: auto;
 }
 
@@ -454,12 +445,17 @@ margin-top: 0px;color:  #2E76FF ;font-size: 7em;font-weight: 650; text-align: ce
 .card-txt1{
   text-align: justify;
   color: black;
-  font-size: 120%;
+  font-size: 160%;
   letter-spacing: 0.08vw;
 }
 .card-1 {
-  padding: 20px;
+  padding: 10px;
   box-sizing: border-box;
   box-shadow: 0.1vw 0.1vw 1vw 0.2vw rgb(12, 49, 116);
   margin: 2%;
+  border-radius: 10px !important;
+  height: 100% !important;
+}
+.det2{
+  padding: 10px;
 }

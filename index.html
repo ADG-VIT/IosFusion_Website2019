@@ -10,14 +10,13 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 </head>
 
-<body class="bg">
+<body class="bg" onscroll="scrollBody()">
         
-         <DIV class="sticky-top">
-         <nav class="navbar navbar-expand-sm navbar-dark">
+         <div class="sticky-top" >
+         <nav class="navbar navbar-expand-sm navbar-dark" id="navbar">
             <a class="navbar-brand" href="#"><img src="./assets/unnamed.png" id="img"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -40,13 +39,13 @@
                 </li>
                         
                 <li class="nav-item">
-                            <a class="nav-link reg" href="#register">REGISTER </a>
+                            <a class="nav-link reg" href="https://vit.ac.in/gravitas/events.html" target="_blank">REGISTER </a>
                         </li>
                
                 </ul>
             </div>
             </nav>
-        </DIV>
+          </div>
        
 
 
@@ -65,9 +64,9 @@
                    
                             <h6  class="wordsh6u" > The ultimate iOS developement workshop </h6>
                             <h1   class="wordsh1"  >iOS FUSION</h1>
-                            <h6  class="wordsh6d"  >📅 14-15 SEPTEMBER 2019 - VIT VELLORE </h6>
+                            <h6  class="wordsh6d"  >📆 14-15 SEPTEMBER 2019 - VIT VELLORE </h6>
                            <form>
-                               <input type="button" class="RButton" value="Register Now" onclick="window.location.href='http://info.vit.ac.in/gravitas2019/gravitas_login.asp'" />
+                               <input type="button" class="RButton" value="Register Now" onclick="window.location.href='https:\/\/vit.ac.in/gravitas/events.html'" />
                             </form>
                     </section>
                 </div>
@@ -96,7 +95,7 @@
     </table>
         <section >
                 <div class="det-text">
-                        <h5>SOMETHING WHAT'S IMPORTANT</h5><br>
+                        <h5 style="font-size: 2.4em;font-weight: 600;color:#4080bf">SOMETHING WHAT'S IMPORTANT</h5><br>
                         <h1 class="det-text2">DETAILS</h1>
             <div class="container justify-content-center">
                 <div class="row justify-content-center">
@@ -134,7 +133,7 @@
                                     <div class="det1">
                                         <img  src="assets/placeholder-on-map-paper-in-perspective.png">
                                         <p class="det-txt1"> Venue  </p>
-                                        <p class="det-txt2">VIT Vellore</p>
+                                        <p class="det-txt2">TT Gallery 1, Ground Floor, VIT Vellore</p>
                                 </div>
                               </div>
                             </div>
@@ -148,27 +147,25 @@
 
 
         <div class="event" id="eve">
-            <div class="container">
-            <div class="row">   
-                <h5 id="h5" class="h5s">WHAT IS THIS ABOUT?</h5>
-                <h1 id="h1" class="h1s"><b>ABOUT THE EVENT</b></h1>
-                
+            <div class="det-text">
+                <h5 style="font-size: 2.4em;font-weight: 600;color:#4080bf">WHAT IS THIS ABOUT?</h5><br>
+                <h1 class="det-text2">ABOUT THE EVENT</h1>
+                <div class="container-fluid">
                 <div class="row">  
-                    <div class="col-lg-3">
+                    <div class="col-lg-1 col-lg-offset-1 col-sm-9 col-sm-offset-2">
                     <div class="laptop1"><img id="laptop" src="./assets/mob-app-development-bg-banner.png"></div>
                     </div>
                     
-                    <div class="col-lg-9">
+                    <div class="col-lg-8 col-lg-offset-2">
                     <div class="laptop2"><b>iOS Fusion is a premium workshop conducted by Apple Developers Group, VIT. It has been conducted for past three years in graVITas, an International Technical Fest organised by VIT Vellore. Participants in our workshop are taught to create apps for iOS devices. Participants are provided with all the necessary softwares required to build beautiful apps. It's great opportunity for the beginners as it gives them a chance to experience what it takes to be an iOS Developer. A plethora of topics will br taught and an overall insight about development process will be provided.Just like boost is the secret of our energy, this workshop too is the secret of not one, not two,not three but many tricks and tips to develop great apps for iOS devices. Our workshop provides you a platform to learn, develop and master amazing things. Join us to experience the life of a developer this graVITas.</b></div>
                     </div>
                 </div>    
                 </div>
-                </div>
-            </div>
-        </div>
+             
+              </div>
     <section class="description" id="desc" style="padding-top: 10vw; width: 100%; height: 100%;">
         <div class="des">
-            <h5>FULL - FLEGED APP DEVELOPMENT</h5>
+            <h5 style="font-size: 2.4em;font-weight: 600;color:#4080bf">FULL - FLEGED APP DEVELOPMENT</h5>
             <h1>AMATURE TO PROFESSIONAL CODER</h1>
         </div>
         <div class="container-fluid">
@@ -176,22 +173,27 @@
               <div class="row">
                 <div class="card-deck-wrapper">
             <div class="card-deck">
+                <div class=" det2 col-md-12 col-lg-4">
               <div class="card card-1">
                 <div class="card-block">
                   <p class="card-txt1">If you're just getting started on your coding journey, iOS fusion is the destination you want to reach. The participants will be learning from scratch and can begin journey from an amateur to proffesional coder.</p>
-    
+                </div>
                 </div>
               </div>
+              <div class=" det2  col-md-12 col-lg-4">
               <div class="card card-1">
                 <div class="card-block">
                   <p class="card-txt1">iOS devices have always been centre of attraction for Tech Savvy audiences. Due to its high popularity, technical advancement, demand in business field, iOS developers receive a different status among technical developers.</p>
     
                 </div>
+                </div>
               </div>
+              <div class=" det2 col-md-12 col-lg-4">
               <div class="card card-1">
                 <div class="card-block">
                   <p class="card-txt1">The advancement in technology would surely make you lean towards iOS app development platform while Apple Developers Group will prepare you for making further business apps.</p>
                 </div>
+              </div>
               </div>
             </div>
           </div>
@@ -291,21 +293,22 @@
     <div class="contact">
             <div class="container">
                     <div class="row">
-                      <div class="col-sm-2">
+                      <div class="col-lg-2 col-xs-6">
                         <h3 class="exp">Explore</h3>
                         <p class="ll">Home</p>
                         <p class="ll">Timeline</p>
                         <p class="ll">Event</p>
                         <p class="ll">Register</p>
                       </div>
-                      <div class="col-sm-2">
+                      <div class="col-lg-2 col-xs-6">
                         <h3 class="exp">Follow</h3>
                         <p class="ll">Instagram</p>
                         <p class="ll">LinkedIn</p>
                         <p class="ll">Facebook</p>
                         <p class="ll">Email</p>
                       </div>
-                      <div class="col-sm-8">
+                      <br><br><br><br><br>
+                      <div class="col-lg-8">
                         <h3 class="exp">About Us</h3>        
                         <p class="ll">Apple Developers Group (ADG), VIT brings to you the two most awaited workshops of the year : iOS Fusion and Unidev. Wanna develop an iOS App but don't know how to start, what to do? Don't worry. We're here to help each one of you out there! Build beautiful apps this graVITas. Join us in iOS FUSION, on 14th & 15th September at CS Hall! Also, if you are wondering about taking your first step in the world of Augmented Reality, do not forget to register for UNIDEV. See your thoughts come live on your desktop screens this 30th September. </p>
                       </div>
