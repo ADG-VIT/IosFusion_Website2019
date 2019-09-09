@@ -4,6 +4,9 @@ Background - #131415
 Light Grey - #C9C9C9
 Gray - #B1B1B1
 Dark Grey - #696969 */
+html{
+  scroll-behavior: smooth;
+}
 .bg{
     background: #131415;
     width: 100vw !important;
