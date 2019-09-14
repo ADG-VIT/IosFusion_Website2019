@@ -356,18 +356,18 @@ margin-top: 0px;color:  #2E76FF ;font-size: 7em;font-weight: 650; text-align: ce
     text-align: center;
     height:18vh;
     width: 100vw;
-    padding-left: 17vw;
+    padding-left: 10vw;
 }
 #rbtn{
   background-color: rgb(255, 255, 255);
-  width: 20vw;
-  height: 10vh;
+  width: 24vw;
+  height: fit-content;
   float: left;
   margin:1vw;
   margin-bottom: 5vh;
   font-size: 2.2vw;
   text-decoration: none;
-  padding-top:3vh;
+  padding:1vh;
   color: #2E76FF;
 
 }
@@ -375,7 +375,10 @@ margin-top: 0px;color:  #2E76FF ;font-size: 7em;font-weight: 650; text-align: ce
   width:1.5vw;
   float: right;
   margin-right: 1vw;
+  margin-top: 1vw;
 }
+
+
 .footer_logo{
   padding-top:3vh;
   padding-bottom:1vh;
