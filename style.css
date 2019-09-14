@@ -346,19 +346,36 @@ margin-top: 0px;color:  #2E76FF ;font-size: 7em;font-weight: 650; text-align: ce
   font-size: 2vh;
   color:#B1B1B1;
 }
-.newsletter{
+.resources{
   background: #2E76FF;
-  height: 2vh;
+  height: fit-content;
   text-align: center;
-}
-.news{
-  padding-top: 8vh;
-  font-family: sans-serif;
-  font-weight: bolder;
-  font-size: 50px;
-  color: white;
-}
 
+}
+.resource-btn{
+    text-align: center;
+    height:18vh;
+    width: 100vw;
+    padding-left: 17vw;
+}
+#rbtn{
+  background-color: rgb(255, 255, 255);
+  width: 20vw;
+  height: 10vh;
+  float: left;
+  margin:1vw;
+  margin-bottom: 5vh;
+  font-size: 2.2vw;
+  text-decoration: none;
+  padding-top:3vh;
+  color: #2E76FF;
+
+}
+#rbtn>img{
+  width:1.5vw;
+  float: right;
+  margin-right: 1vw;
+}
 .footer_logo{
   padding-top:3vh;
   padding-bottom:1vh;
@@ -470,3 +487,5 @@ margin-top: 0px;color:  #2E76FF ;font-size: 7em;font-weight: 650; text-align: ce
 .det2{
   padding: 10px;
 }
+
+
