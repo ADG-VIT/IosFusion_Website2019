@@ -12,7 +12,7 @@ nav.style.backgroundColor = '#131415';
 function countDown()
 {
     var now = new Date();
-    var eventDate = new Date(2019,8,15);
+    var eventDate = new Date("2019-09-14T10:30:00-00:00");
 
     var currentTime = now.getTime();
     var eventTime = eventDate.getTime();
